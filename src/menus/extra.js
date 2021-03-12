@@ -1,4 +1,4 @@
-const novidades = () => { 
+const extra = () => { 
 	return `
  INFO 
 
@@ -21,5 +21,5 @@ const novidades = () => {
  [ Pepy Bot ]`
 }
 
-exports.novidades = novidades
+exports.extra = extra
 
