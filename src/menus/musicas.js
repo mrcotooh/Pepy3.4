@@ -68,6 +68,6 @@ _*wa.me/+5519999897566*_
  [ Pepy Bot ]`
 }
 
-exports.musicas = musica
+exports.musicas = musicas
 
 
