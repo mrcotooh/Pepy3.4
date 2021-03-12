@@ -21,7 +21,7 @@ const { musicas } = require('./src/menus/musicas')
 const { ia } = require('./src/menus/ia')
 const { imagens } = require('./src/menus/imagens')
 const { interativo } = require('./src/menus/interativo')
-const { menuhacker } = require('./src/menus/menuhacker')
+const { hacker } = require('./src/menus/hacker')
 const { novidades } = require('./src/menus/novidades')
 const { outros } = require('./src/menus/outros')
 const { outros2 } = require('./src/menus/outros2')
@@ -710,14 +710,14 @@ const get = require('got')
 	}
 	
 	
-			if (messagesC.includes("Tudobem?")){
+			if (messagesC.includes("tudobem?")){
 			client.updatePresence(from, Presence.composing)
-			reply("to bem, vlw por perguntar ð")
+			reply("to bem, vlw por perguntar :3")
 	}
 	
 				if (messagesC.includes("!help")){
 			client.updatePresence(from, Presence.composing)
-			reply("Ã com . caralho")
+			reply("é com . caralho")
 	}
 	
 	
@@ -729,31 +729,31 @@ const get = require('got')
 	
 					if (messagesC.includes("#help")){
 			client.updatePresence(from, Presence.composing)
-			reply("Ã com . caralho")
+			reply("é com . caralho")
 	}
 	
 if (messagesC.includes("irineu")){
 			client.updatePresence(from, Presence.composing)
-			reply("voc¨º n00o sabe nem eu")
+			reply("voc¨º nãoo sabe nem eu")
 	}
 	
 if (messagesC.includes("lorena")){
 			client.updatePresence(from, Presence.composing)
-			reply("eu n00o speako em ingr¨ºs")
+			reply("i não speako em ingreis")
 	}
 	
 					if (messagesC.includes("#menu")){
 			client.updatePresence(from, Presence.composing)
-			reply("Ã com . caralho")
+			reply("é com . caralho")
 	}				
 	             if (messagesC.includes("/menu")){
 			client.updatePresence(from, Presence.composing)
-			reply("Ã com . caralho")
+			reply("é com . caralho")
 	}
 	
 			if (messagesC.includes("chato")){
 			client.updatePresence(from, Presence.composing)
-			reply("nossa ð¥º")
+			reply("nossa ")
 	}
 	
 			if (messagesC.includes("vadia")){
@@ -805,7 +805,7 @@ if (messagesC.includes("bot")){
 	}
 				if (messagesC.includes("raca")){
 			client.updatePresence(from, Presence.composing)
-			tujuh = fs.readFileSync('./assets/raca. mp3');
+			tujuh = fs.readFileSync('./assets/raca.mp3');
             client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 	}
 				if (messagesC.includes("oii")){
@@ -888,7 +888,7 @@ if (messagesC.includes("bot")){
             client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 	}
 	
-			if (messagesC.includes("video")){
+			if (messagesC.includes("laranja")){
 			client.updatePresence(from, Presence.composing)
 			tujuh = fs.readFileSync('./assets/laranjinha.mp4');
             client.sendMessage(from, tujuh, video, {quoted: mek, mimetype: 'video/mp4', ptt:true})
