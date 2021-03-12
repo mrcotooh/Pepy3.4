@@ -8,7 +8,7 @@ const sticker = () => {
 馃搶Whatsapp: https://wa.me/+5519999897566
 馃搶STATUS: ON
 
-🗂〄1�7 STICKER MENU 〙🗄1�7
+🗂〄1�7 STICKER MENU 〙🗄1�7
 
  📌${prefix}animecry
  📌${prefix}hubgif
@@ -28,5 +28,5 @@ const sticker = () => {
  🔷 Pepy Bot 🔷`
 }
 
-exports. = sticker
+exports.sticker = sticker
 
