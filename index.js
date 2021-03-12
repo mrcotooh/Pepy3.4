@@ -961,7 +961,8 @@ if (messagesC.includes("bot")){
 					break
 					case 'imagens':
 					client.sendMessage(from, imagens(prefix), text)
-					breakcase 'interativo':
+					break
+				case 'interativo':
 					client.sendMessage(from, interativo(prefix), text)
 					break
 					case 'menuhacker':
