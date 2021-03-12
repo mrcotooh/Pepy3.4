@@ -1,32 +1,53 @@
 const sticker = () => { 
-	return `
- INFO 
 
-    🔷 PEPYTO Bot 🔷
-馃搶Vers茫o 3.4
-馃搶Dono: Guilherme
-馃搶Whatsapp: https://wa.me/+5519999897566
-馃搶STATUS: ON
+	return ` INFO 
 
-🗂〄1�7 STICKER MENU 〙🗄1�7
+     〘 PEPY Bot 〙
+
+     
+
+🔰Versão 3.4
+
+🔰Dono: Guilherme
+
+🔰Whatsapp: https://wa.me/+5519999897566
+
+🔰STATUS: ON
+
+      〘 STICKER MENU 〙
 
  📌${prefix}animecry
+
  📌${prefix}hubgif
+
  📌${prefix}blowgif 🔞
+
  📌${prefix}shota
+
  📌${prefix}hentaifig 🔞
+
  📌${prefix}nekofig 🔞
+
  📌${prefix}lolifig
 
-      馃彯DONO 馃彯
+ 📌${prefix}figu  (Para Fazer Sua Figurinha )
 
-馃彯NOME: Guilherme
-馃彯INSTA: https://instagram.com/hoshigaki_guilherme?igshid=cef78b814ce3
-馃彯WPP: https://wa.me/+5519999897566
-馃彯${prefix}dono  para mais info
+ 📌${prefix}sticker (Para Fazer Sua Figurinha )
 
- 🔷 Pepy Bot 🔷`
+ 📌${prefix}f (Para Fazer Sua Figurinha )
+
+ 
+
+      🔰DONO 🔰
+
+🔰NOME: Guilherme
+
+🔰INSTA: https://instagram.com/hoshigaki_guilherme?igshid=cef78b814ce3
+
+🔰WPP: https://wa.me/+5519999897566
+
+    〘 PEPYTO Bot 〙`
+
 }
 
 exports.sticker = sticker
-
