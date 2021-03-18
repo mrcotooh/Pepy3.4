@@ -3,7 +3,6 @@ const grupo = () => {
     ♟ Pepy Bot ♟
 🏮Versão 3.5
 🏮Dono: Guilherme
-🏮Whatsapp: https://wa.me/+5519999897566
 🏮STATUS: ON
 
      
@@ -44,8 +43,8 @@ const grupo = () => {
       🔥 DONO 🔥
 
 🏮NOME: Guilherme
-🏮INSTA: //https://instagram.com/hoshigaki_guilherme?igshid=cef78b814ce3
-🏮WPP: //https://wa.me/+5519999897566
+🏮INSTA: hoshigaki_guilherme
+🏮WPP: +5519999897566
 
  ♟ Pepy Bot ♟`
 }
