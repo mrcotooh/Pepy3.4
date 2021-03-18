@@ -3,7 +3,7 @@ const novidades = () => {
 	return `
     ♟ Pepy Bot ♟
     
-🏮Versão 3.4
+🏮Versão 3.5
 🏮Dono: Guilherme
 🏮STATUS: ON
 
