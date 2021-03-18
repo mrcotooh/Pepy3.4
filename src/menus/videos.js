@@ -1,12 +1,9 @@
 const videos = () => { 
 	return `
- INFO 
-
-    [ PEPYTO Bot ]
-馃搶Vers茫o 3.4
-馃搶Dono: Guilherme
-馃搶Whatsapp: https://wa.me/+5519999897566
-馃搶STATUS: ON
+    ♟ Pepy Bot ♟
+🏮Versão 3.5
+🏮Dono: Guilherme
+🏮STATUS: ON
 
 🗂〘 CMDS DE VÍDEO 〙🗂
 
@@ -14,7 +11,7 @@ const videos = () => {
 _📌Say Cat📌_
 ════════
 
- 📌${prefix}say1
+ 📌${prefix}say1 (off) 
  📌${prefix}say2
  📌${prefix}say3
  📌${prefix}say4
@@ -36,16 +33,15 @@ _📌VARIADAS📌_
  📌${prefix}edit3
  📌${prefix}edit4
 
-🔹 NOTA: QUER QUE SUA EDIT APAREÇA AQUI?  MANDE PARA: https://wa.me/+5519999897566
+🔹 NOTA: QUER QUE SUA EDIT APAREÇA AQUI?  MANDE PARA: +5519999897566
 
-      馃彯DONO 馃彯
+      🏮 DONO 🏮
 
-馃彯NOME: Guilherme
-馃彯INSTA: https://instagram.com/hoshigaki_guilherme?igshid=cef78b814ce3
-馃彯WPP: https://wa.me/+5519999897566
-馃彯${prefix}dono  para mais info
+🏮NOME: Guilherme
+🏮INSTA: hoshigaki_guilherme
+🏮WPP: +5519999897566
 
- [ Pepy Bot ]`
+ ♟ Pepy Bot ♟`
 }
 
 exports.videos = videos
