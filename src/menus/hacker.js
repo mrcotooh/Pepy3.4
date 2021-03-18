@@ -2,10 +2,9 @@ const hacker = () => {
 	return `
  INFO 
 
-    [ PEPYTO Bot ]
-🏮Versão 3.4
+    ♟ PEPYTO Bot ♟
+🏮Versão 3.5
 🏮Dono: Guilherme
-🏮Whatsapp: https://wa.me/+5519999897566
 🏮STATUS: ON
 
      🗂〘 Menu Hacker 〙🗂
@@ -27,7 +26,7 @@ const hacker = () => {
 🏮WPP: https://wa.me/+5519999897566
 🏮${prefix}dono para mais info
 
- [ Pepy Bot ]`
+ ♟ Pepy Bot ♟`
 }
 
 exports.hacker = hacker
