@@ -2,10 +2,9 @@ const menu = () => {
 	return `
  INFO 
 
-    [ PEPYTO Bot ]
-📌Versão 3.4
+    ♟ Pepy Bot ♟
+📌Versão 3.5
 📌Dono: Guilherme
-📌Whatsapp: https://wa.me/+5519999897566
 📌STATUS: ON
 
 🗂${prefix}sticker
@@ -16,7 +15,7 @@ const menu = () => {
 🗂${prefix}grupo
 🗂${prefix}voz
 🗂${prefix}hacker
-🗂${prefix}interativos
+🗂${prefix}interativo
 🗂${prefix}videos
 🗂${prefix}musicas
 🗂${prefix}extra
@@ -26,11 +25,11 @@ const menu = () => {
       🏮DONO 🏮
 
 🏮NOME: Guilherme
-🏮INSTA: https://instagram.com/hoshigaki_guilherme?igshid=cef78b814ce3
-🏮WPP: https://wa.me/+5519999897566
+🏮INSTA: hoshigaki_guilherme
+🏮WPP: +5519999897566
 🏮${prefix}dono  para mais info
 
- [ Pepy Bot ]`
+ ♟ Pepy Bot ♟`
 }
 
 exports.menu = menu
