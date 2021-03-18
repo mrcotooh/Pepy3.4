@@ -6,7 +6,7 @@ const menu = () => {
 ➥  Pepy Bot
 ➥ 📌3.4📌
 ➥ Dono: Guilherme
-➥ 📌http://wa.me/+5519999897566
+➥ 📌https://wa.me/+5519999897566
 ➥ STATUS: ON
 🗂〘 NOVIDADES 〙🗂
 
@@ -354,7 +354,7 @@ _📌VARIADAS📌_
 
  📌NOME: Guilherme
  📌INSTA: https://instagram.com/hoshigaki_guilherme?igshid=cef78b814ce3
- 📌WPP: http://wa.me/+5519999897566
+ 📌WPP: https://wa.me/+5519999897566
   
 
 〘 Pepyto Bot 〙`
