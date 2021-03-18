@@ -1,17 +1,10 @@
 const imagens = () => { 
 
-	return `    INFO 
-
+	return `
     〘 PEPYTO Bot 〙
 
-    
-
-🔰Versão 3.4
-
+🔰Versão 3.5
 🔰Dono: Guilherme
-
-🔰Whatsapp: https://wa.me/+5519999897566
-
 🔰STATUS: ON 
 
  
@@ -21,98 +14,54 @@ const imagens = () => {
       
 
 📌${prefix}pslogo (seu texto)
-
 📌${prefix}milogo (seu texto)
-
 📌${prefix}aguia (seu texto)
-
 📌${prefix}monkey (seu texto)
-
 📌${prefix}dnulis (seu texto)
-
 📌${prefix}dmeme (seu texto)
-
 📌${prefix}dnobg (seu texto)
-
 📌${prefix}dnobg2 (seu texto/seu texto)
-
 📌${prefix}tlogo (seu texto)
-
 📌${prefix}nlogo (seu texto)
-
 📌${prefix}black (seu texto)
-
 📌${prefix}clogo (seu texto)
-
 📌${prefix}glogo (seu texto/seu texto)
-
 📌${prefix}aguia2 (seu texto/seu texto)
-
 📌${prefix}wlogo (seu texto)
-
 📌${prefix}letxt (seu texto)
-
 📌${prefix}text3d (seu texto)
-
 📌${prefix}amor (tamanho/blush) [numeros]
-
 📌${prefix}frase (seu texto/seu texto)
-
 📌${prefix}canal (seu texto)
-
 📌${prefix}plogo (seu texto) [plaquinha] 
-
 📌${prefix}loli [off]
-
 📌${prefix}loli1
-
 📌${prefix}hentai
-
 📌${prefix}dono
-
 📌${prefix}porno
-
 📌${prefix}boanoite
-
 📌${prefix}bomdia
-
 📌${prefix}boatarde
-
 📌${prefix}mia [aleatórias]
-
 📌${prefix}rize [aleatórias]
-
 📌${prefix}minato [aleat{órias]
-
 📌${prefix}boruto [aleatórias]
-
 📌${prefix}hinata [aleatórias]
-
 📌${prefix}sasuke [aleatórias]
-
 📌${prefix}sakura [aleatórias]
-
 📌${prefix}naruto [aleatórias]
-
 📌${prefix}meme
-
 📌${prefix}lofi
-
 📌${prefix}malkova
-
 📌${prefix}canal
-
 📌${prefix}nsfwloli1
-
 📌${prefix}reislin
 
       🏮DONO 🏮
 
 🏮NOME: Guilherme
-
 🏮INSTA: Hoshigaki_Guilherme
-
-🏮WPP: https://wa.me/+5519999897566
+🏮WPP: +5519999897566
 
     〘 PEPYTO Bot 〙`
 
