@@ -1,4 +1,4 @@
-const sticker = () => { 
+const figmenu = () => { 
 
 	return `
      ♟ Pepy Bot ♟
@@ -25,8 +25,8 @@ const sticker = () => {
 🔰INSTA: hoshigaki_guilherme
 🔰WPP: +5519999897566
 
-    🗂 Pepy Bot 🗂`
+    ♟ Pepy Bot ♟`
 
 }
 
-exports.sticker = sticker
+exports.figmenu = figmenu
