@@ -3,11 +3,11 @@ const interativo = () => {
  INFO 
 
     ♟ Pepy Bot ♟
-🏮Vers茫o 3.5
+🏮Versão 3.5
 🏮Dono: Guilherme
 🏮STATUS: ON
 
-🗂〘 Interativo 〙🗂
+🗂 Interativo 🗂
 
  📌-bah
  📌-oii
