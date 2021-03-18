@@ -1,52 +1,31 @@
 const sticker = () => { 
 
-	return ` INFO 
+	return `
+     ♟ Pepy Bot ♟
 
-     〘 PEPY Bot 〙
-
-     
-
-🔰Versão 3.4
-
+🔰Versão 3.5
 🔰Dono: Guilherme
-
-🔰Whatsapp: https://wa.me/+5519999897566
-
 🔰STATUS: ON
 
-      〘 STICKER MENU 〙
+      🗂 STICKER MENU 🗂
 
  📌${prefix}animecry
-
  📌${prefix}hubgif
-
  📌${prefix}blowgif 🔞
-
  📌${prefix}shota
-
  📌${prefix}hentaifig 🔞
-
  📌${prefix}nekofig 🔞
-
  📌${prefix}lolifig
-
  📌${prefix}figu  (Para Fazer Sua Figurinha )
-
  📌${prefix}sticker (Para Fazer Sua Figurinha )
-
  📌${prefix}f (Para Fazer Sua Figurinha )
-
  
-
       🔰DONO 🔰
-
 🔰NOME: Guilherme
+🔰INSTA: hoshigaki_guilherme
+🔰WPP: +5519999897566
 
-🔰INSTA: https://instagram.com/hoshigaki_guilherme?igshid=cef78b814ce3
-
-🔰WPP: https://wa.me/+5519999897566
-
-    〘 PEPYTO Bot 〙`
+    🗂 Pepy Bot 🗂`
 
 }
 
