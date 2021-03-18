@@ -1,14 +1,11 @@
 const ia = () => { 
 	return `
- INFO 
+    馃彯 PEPYTO Bot 馃彯
+馃彯Vers茫o 3.5 
+馃彯Dono: Guilherme
+馃彯STATUS: ON
 
-    [ PEPYTO Bot ]
-棣冩惗Vers鑼玱 3.4
-棣冩惗Dono: Guilherme
-棣冩惗Whatsapp: https://wa.me/+5519999897566
-棣冩惗STATUS: ON
-
-       🗂〘 IA 〙🗂
+       馃梻 IA 馃梻
 
 
  馃搶${prefix}simih 1 (para ativar)
@@ -17,15 +14,16 @@ const ia = () => {
 
 
 
-      棣冨蒋DONO 棣冨蒋
+           馃敟 DONO 馃敟
 
-棣冨蒋NOME: Guilherme
-棣冨蒋INSTA: https://instagram.com/hoshigaki_guilherme?igshid=cef78b814ce3
-棣冨蒋WPP: https://wa.me/+5519999897566
-棣冨蒋${prefix}dono  para mais info
+馃彯NOME: Guilherme
+馃彯INSTA: Hoshigaki_Guilherme
+馃彯WPP: +5519999897566
 
- [ Pepy Bot ]`
+ 鈾� Pepy Bot 鈾焋
 }
 
 exports.ia = ia
+
+
 
