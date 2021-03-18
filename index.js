@@ -3688,7 +3688,7 @@ break
 					})
 					break
 			case 'closegc':
-					client.updatePresence(from, Presence.composing) 
+				        client.updatePresence(from, Presence.composing) 
 					if (!isGroup) return reply(mess.only.group)
 					if (!isGroupAdmins) return reply(mess.only.admin)
 					if (!isBotGroupAdmins) return reply(mess.only.Badmin)
