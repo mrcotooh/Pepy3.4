@@ -19,6 +19,7 @@ const { extra } = require('./src/menus/extra')
 const { grupo } = require('./src/menus/grupo')
 const { musicas } = require('./src/menus/musicas')
 const { ia } = require('./src/menus/ia')
+const { dono } = require('./src/menus/dono')
 const { imagens } = require('./src/menus/imagens')
 const { interativo } = require('./src/menus/interativo')
 const { hacker } = require('./src/menus/hacker')
@@ -951,8 +952,13 @@ if (messagesC.includes("bot")){
 					break
                 case 'meny':
 					client.sendMessage(from, menu(prefix), text)
+					break 
+				case 'dono': 
+					client.sendMessage(from, dono(prefixos), text) 
 					break
-				case 'menu':
+					
+					
+				case 'menu': 
 					client.sendMessage(from, menu(prefix), text)
 					break
 					case 'extra':
@@ -970,9 +976,20 @@ if (messagesC.includes("bot")){
 					case 'interativo':
 					client.sendMessage(from, interativo(prefix), text)
 					break
+					
 					case 'hacker':
 					client.sendMessage(from, hacker(prefix), text)
 					break
+					
+
+	
+
+					
+
+	
+
+	
+					
 					
 					case 'novidades':
 					client.sendMessage(from, novidades(prefix), text)
