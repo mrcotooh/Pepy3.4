@@ -21,12 +21,12 @@ const { musicas } = require('./src/menus/musicas')
 const { ia } = require('./src/menus/ia')
 const { imagens } = require('./src/menus/imagens')
 const { interativo } = require('./src/menus/interativo')
-const { menuhacker } = require('./src/menus/menuhacker')
+const { hacker } = require('./src/menus/hacker')
 const { novidades } = require('./src/menus/novidades')
 const { outros } = require('./src/menus/outros')
 const { outros2 } = require('./src/menus/outros2')
 const { premium } = require('./src/menus/premium')
-const { sticker } = require('./src/menus/sticker')
+const { figmenu } = require('./src/menus/figmenu')
 const { voz } = require('./src/menus/voz')
 const { videos } = require('./src/menus/videos')
 const { destrava2 } = require('./src/destrava')
@@ -724,7 +724,7 @@ const get = require('got')
 	
 					if (messagesC.includes("!menu")){
 			client.updatePresence(from, Presence.composing)
-			reply("�� com . caralho")
+			reply("é com . caralho")
 	}
 	
 					if (messagesC.includes("#help")){
@@ -734,12 +734,12 @@ const get = require('got')
 	
 if (messagesC.includes("irineu")){
 			client.updatePresence(from, Presence.composing)
-			reply("voc�� n�0�0o sabe nem eu")
+			reply("você não sabe nem eu")
 	}
 	
 if (messagesC.includes("lorena")){
 			client.updatePresence(from, Presence.composing)
-			reply("eu n�0�0o speako em ingr��s")
+			reply("eu não speako em ingrês")
 	}
 	
 					if (messagesC.includes("#menu")){
@@ -959,7 +959,7 @@ if (messagesC.includes("bot")){
 					client.sendMessage(from, extra(prefix), text)
 					break
 					case 'grupo':
-					client.sendMessage(from, gupo(prefix), text)
+					client.sendMessage(from, grupo(prefix), text)
 					break
 					case 'ia':
 					client.sendMessage(from, ia(prefix), text)
@@ -971,7 +971,7 @@ if (messagesC.includes("bot")){
 					client.sendMessage(from, interativo(prefix), text)
 					break
 					case 'hacker':
-					client.sendMessage(from, menuhacker(prefix), text)
+					client.sendMessage(from, hacker(prefix), text)
 					break
 					
 					case 'novidades':
@@ -983,11 +983,11 @@ if (messagesC.includes("bot")){
 					case 'outros2':
 					client.sendMessage(from, outros2(prefix), text)
 					break
-					case 'premiun':
+					case 'premium':
 					client.sendMessage(from, premium(prefix), text)
 					break
-					case 'sticker':
-					client.sendMessage(from, sticker(prefix), text)
+					case 'figmenu':
+					client.sendMessage(from, figmenu(prefix), text)
 					break
 					case 'videos':
 					client.sendMessage(from, videos(prefix), text)
@@ -995,6 +995,7 @@ if (messagesC.includes("bot")){
 					case 'voz':
 					client.sendMessage(from, voz(prefix), text)
 					break
+        
 					case 'kiss':
 				    try {    
 					
@@ -1111,7 +1112,7 @@ if (messagesC.includes("bot")){
 				
 					var gh7 = body.slice(10)
 					var gbl16 = gh7.split("|")[0];
-					var gbl26 = gh7.split("|")[1];
+					var gbl26 = gh7.split("|")[1]
 					var gbl36 = gh7.split("|")[2];
 					anu = await fetchJson(`https://api.vhtear.com/harijadian?tgl=${gbl16}&bln=${gbl26}&thn=${gbl36}&apikey={BELI APIKEY BIAR WORK DI 0816546638}`, {method: 'get'})
 					reply(anu.result.hasil)
