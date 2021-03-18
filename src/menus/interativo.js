@@ -1,7 +1,5 @@
 const interativo = () => { 
 	return `
- INFO 
-
     ♟ Pepy Bot ♟
 🏮Versão 3.5
 🏮Dono: Guilherme
