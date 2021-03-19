@@ -1,4 +1,4 @@
-const figmenu = () => { 
+const figumenu = () => { 
 
 	return `
      ♟ Pepy Bot ♟
@@ -29,4 +29,4 @@ const figmenu = () => {
 
 }
 
-exports.figmenu = figmenu
+exports.figumenu = figumenu
