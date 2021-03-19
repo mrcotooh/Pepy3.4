@@ -3704,19 +3704,7 @@ break
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'lolizinha'})
 					})
 					break
-			case 'closegc':
-				        client.updatePresence(from, Presence.composing) 
-					if (!isGroup) return reply(mess.only.group)
-					if (!isGroupAdmins) return reply(mess.only.admin)
-					if (!isBotGroupAdmins) return reply(mess.only.Badmin)
-					var nomor = mek.participant
-					const close = {
-					text: `Grupo fechado pelo administrador @${nomor.split("@s.whatsapp.net")[0]}\nsekarang *apenas administrador* quem pode enviar mensagens`
-					contextInfo: { mentionedJid: [nomor] }
-					}
-					client.groupSettingChange (from, GroupSettingChange.messageSend, true);
-					reply(close)
-					break
+			
 				case 'kurumi':
 					reply(mess.wait)
 					anu = await fetchJson(`https://api.fdci.se/rep.php?gambar=anime+karumi`, {method: 'get'})
