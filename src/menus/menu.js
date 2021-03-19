@@ -5,7 +5,7 @@ const menu = () => {
 📌Dono: Guilherme
 📌STATUS: ON
 
-🗂${prefix}sticker
+🗂${prefix}figumenu
 🗂${prefix}novidades
 🗂${prefix}imagens
 🗂${prefix}ia
@@ -25,7 +25,7 @@ const menu = () => {
 🏮NOME: Guilherme
 🏮INSTA: hoshigaki_guilherme
 🏮WPP: +5519999897566
-🏮${prefix}dono  para mais info
+🏮${prefix}dono para mais info
 
  ♟ Pepy Bot ♟`
 }
