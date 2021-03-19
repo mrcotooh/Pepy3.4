@@ -16,20 +16,17 @@ const outros = () => {
  📌${prefix}promover [@]
  📌${prefix}rebaixar
  📌${prefix}admins
- 📌${prefix}marcar2
- 📌${prefix}bc [texto] (ele faz uma ™)
+ 📌${prefix}marcar2 
  📌${prefix}marcar3
  📌${prefix}bloqueados
  📌${prefix}bloquear [@]
  📌${prefix}desbloquear [@]
  📌${prefix}limpar
- 📌${prefix}bc [ 📌texto📌 ]
  📌${prefix}bemvindo [1/0]
  📌${prefix}clonar [@]
  📌${prefix}help1
- 📌${prefix}dono
- 📌${prefix}owner
- 📌${prefix}tts [texto]
+ 📌${prefix}dono   
+ 📌${prefix}tts pt [texto]
  📌${prefix}setnome
  📌${prefix}termux
  📌${prefix}setfoto
@@ -41,7 +38,7 @@ const outros = () => {
  📌${prefix}marcar2
  📌${prefix}marcar3
  📌${prefix}antilink [1/0]
- 📌${prefix}brainly [pergunta]
+ 📌${prefix}brainly [pergunta] (OFF) 
  📌${prefix}antiracismo [on/off]
  📌${prefix}setnomebot
  📌${prefix}meme
