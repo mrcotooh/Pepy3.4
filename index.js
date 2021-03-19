@@ -3840,7 +3840,7 @@ break
 					enmedia = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
 					media = await client.downloadAndSaveMediaMessage(enmedia)
 					await client.updateProfilePicture(botNumber, media)
-					reply('Obrigado pelo novo perfil😗')
+					reply('Obrigado pelo novo perfil 😗')
 					break
 				case 'filme':
 				if (args.length < 1) return reply('Que filme quer encontrar?')
