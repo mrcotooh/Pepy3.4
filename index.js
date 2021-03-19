@@ -14,8 +14,7 @@ const { vipmenu } = require('./src/vipmenu')
 const { animemenu } = require('./dark/animemenu')
 const { destrava } = require('./src/destrava')
 const { menu2 } = require('./src/menu2')
-const { menu } = require('./src/menus/menu')
-const { extra } = require('./src/menus/extra')
+const { menu } = require('./src/menus/menu') 
 const { grupo } = require('./src/menus/grupo')
 const { musicas } = require('./src/menus/musicas')
 const { ia } = require('./src/menus/ia')
@@ -950,9 +949,6 @@ if (messagesC.includes("bot")){
 					break
 				case 'menu':
 					client.sendMessage(from, menu(prefix), text)
-					break
-					case 'extra':
-					client.sendMessage(from, extra(prefix), text)
 					break
 					case 'grupo':
 					client.sendMessage(from, grupo(prefix), text)
