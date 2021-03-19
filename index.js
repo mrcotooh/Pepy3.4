@@ -806,7 +806,7 @@ if (messagesC.includes("bot")){
 	}
 			if (messagesC.includes("tude4")){
 			client.updatePresence(from, Presence.composing)
-			tujuh = fs.readFileSync('./assets/tude4.mp3');
+			tujuh = fs.readFileSync('./assets/Tude4.mp3');
             client.sendMessage(from, tujuh, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 	}
 				if (messagesC.includes("raca")){
