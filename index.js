@@ -3685,35 +3685,9 @@ break
                    reply(hasil)
                    await limitAdd(sender)
                    break
-					case 'totaluser':
-					if (!isOwner) return reply(mess.only.ownerB)    
-					teks = `\`\`\`╭─┄TOTAL DE USUÁRIO Pepyto BOT 👑* 」\n\`\`\``
-					no = 0
-					for (let hehehe of user) {
-						no += 1
-						teks += `\`\`\`[${no.toString()}]\`\`\` @${hehehe.split('@')[0]}\n`
-					}
-					teks += `┄+ Total de usuários : ${user.length}\n╰─┄Pepy Bot
-					 client.sendMessage(from, teks.trim(), extendedText, {quoted: mek, contextInfo: {"mentionedJid": user}})
-					break
-				case 'desligar':
-					if (!isOwner) return reply(mess.only.ownerB)
-					loli.getSFWLoli(async (err, res) => {
-						if (err) return reply('*ERRO AO DESLIGAR*')
-						buffer = await getBuffer(res.url)
-						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'lolizinha'})
-					})
-					break
-			
-				case 'kurumi':
-					reply(mess.wait)
-					anu = await fetchJson(`https://api.fdci.se/rep.php?gambar=anime+karumi`, {method: 'get'})
-					kur = JSON.parse(JSON.stringify(anu));
-					imi =  kur[Math.floor(Math.random() * kur.length)];
-					nye = await getBuffer(imi)
-					client.sendMessage(from, nye, image, { caption: 'kurumi chan!!', quoted: mek })
-					await limitAdd(sender) 
-					break 
+					
+b
+				
 				case 'miku':
 					reply(mess.wait)
 					anu = await fetchJson(`https://api.fdci.se/rep.php?gambar=anime+miku`, {method: 'get'})
