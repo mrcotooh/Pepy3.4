@@ -39,7 +39,7 @@ ${prefix}n https://youtu.be/y-UyPgs3hyQ
 
 
 ──────────────────
-    『 PEPYTO 』
+    『 PEPY 』
 ──────────────────`
 }
 exports.animemenu = animemenu
